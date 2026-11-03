@@ -21,7 +21,18 @@ $ uv build                      # build the sdist and wheel into dist/
 
 ## Usage
 
-- TODO
+```python
+import pandas as pd
+import weather_nah2181
+
+weather_nah2181.celsius_to_fahrenheit(25)               # 77.0
+weather_nah2181.summarize_temperatures([10.0, float("nan"), 20.0])
+# {'mean': 15.0, 'min': 10.0, 'max': 20.0, 'n_missing': 1}
+
+raw = pd.DataFrame({"station": ["JFK", "CPK"], "date": ["2026-07-01"] * 2,
+                    "temp_c": [30.0, float("nan")]})
+weather_nah2181.clean_readings(raw)                       # drops the NaN row, adds temp_f
+```
 
 ## Contributing
 
