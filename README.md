@@ -1,5 +1,7 @@
 # weather_nah2181
 
+[![ci](https://github.com/QMSS-G5072-2026/weather_hendra_nadhira/actions/workflows/ci.yml/badge.svg)](https://github.com/QMSS-G5072-2026/weather_hendra_nadhira/actions/workflows/ci.yml)
+
 Small utilities for converting, summarizing, and cleaning temperature readings.
 
 ## Installation
