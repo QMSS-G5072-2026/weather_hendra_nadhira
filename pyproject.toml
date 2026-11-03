@@ -1,6 +1,6 @@
 [project]
 name = "weather_nah2181"
-version = "0.1.0"
+version = "0.1.1"
 description = "Small utilities for converting, summarizing, and cleaning temperature readings."
 readme = "README.md"
 authors = [{ name = "Nadhira Azzahra Hendra", email = "azzahra.ndhr@gmail.com" }]
